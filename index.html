@@ -27,7 +27,7 @@
     <line class="dimensionLine"></line>
     <line class="dimensionLine"></line>
   </svg>
-  <button slot="ar-button" id="ar-button">
+  <button class="ar-Button-right" slot="ar-button" id="ar-button">
     View in your space
   </button>
   <div id="controls" class="dim">
@@ -224,7 +224,11 @@
     pointer-events: none;
     display: block;
   }
-
+  .ar-Button-right{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  }
   .dimensionLine{
     stroke: #16a5e6;
     stroke-width: 2;
